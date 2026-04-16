@@ -5,8 +5,11 @@ Public Class Form4
     Dim dice As Integer
     Dim rndNum As New Random
     Dim GuessNum As Integer = 3
+    Dim win As Integer
+    Dim lose As Integer
     Private Sub Form4_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         lblGuesses.Text = "Guesses: " & GuessNum
+        optGoAway.Checked = True
     End Sub
 
     Private Sub Form4_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
@@ -70,10 +73,14 @@ Public Class Form4
             MsgBox("you got it incorret")
             GuessNum = GuessNum - 1
             lblGuesses.Text = "Guesses: " & GuessNum
+            lose = lose + 1
+            lblLosses.Text = "Loss: " & lose
         ElseIf PlayerGuess = dice Then
             MsgBox("you got it correct")
             GuessNum = 3
             lblGuesses.Text = "Guesses: " & GuessNum
+            win = win + 1
+            lblWin.Text = "Win: " & win
         End If
 
         If GuessNum = 0 Then
@@ -85,6 +92,10 @@ Public Class Form4
             GuessNum = 3
             lblGuesses.Text = "Guesses: " & GuessNum
             picDIce.Image = My.Resources.blank
+            win = 0
+            lose = 0
+            lblWin.Text = "Win: "
+            lblLosses.Text = "Loss: "
         End If
 
         If GuessNum <= -1 Then
@@ -95,6 +106,10 @@ Public Class Form4
             GuessNum = 3
             lblGuesses.Text = "Guesses: " & GuessNum
             picDIce.Image = My.Resources.blank
+            win = 0
+            lose = 0
+            lblWin.Text = "Win: "
+            lblLosses.Text = "Loss: "
         End If
     End Sub
 
@@ -106,5 +121,9 @@ Public Class Form4
         GuessNum = 3
         lblGuesses.Text = "Guesses: " & GuessNum
         picDIce.Image = My.Resources.blank
+        win = 0
+        lose = 0
+        lblWin.Text = "Win: "
+        lblLosses.Text = "Loss: "
     End Sub
 End Class
