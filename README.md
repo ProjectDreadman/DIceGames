@@ -12,10 +12,10 @@ This repository is useful as a learning example for WinForms UI, basic event han
 2.  **.NET Desktop Development**
 3.  **.NET Framework 4.7.2**
 ### Installation
-1. Clone the repo: `git clone https://github.com/ProjectDreadman/RockPaperScissors.git`
+1. Clone the repo: `git clone https://github.com/ProjectDreadman/DIceGames.git`
 2. Install dependencies: there are not as of right now
 3. Open the project: Navigate to the folder ans double-click the .sln (Solution) file to open it in visual studio
-4. Run the project: Press Ctrl + F5 or press the Start Button (the green play button)
+4. Run the project: Press the Start Button (the green play button)
 
 ## Usage
  This repository provides three small dice mini-games that are useful for learning and demonstration. Use the app to explore basic VB.NET WinForms programming (events, form navigation, image resources), experiment with randomness and probability, or run a quick dice roll for tabletop games. DIceGames is also a simple starter project you can extend, refactor into testable components, or port to other technologies for practice and also aslong as it is not selled for a profit!!!
