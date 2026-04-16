@@ -18,7 +18,7 @@ This repository is useful as a learning example for WinForms UI, basic event han
 4. Run the project: Press Ctrl + F5 or press the Start Button (the green play button)
 
 ## Usage
-Can be used for anything aslong as it is not selled for a profit!!!
+ This repository provides three small dice mini-games that are useful for learning and demonstration. Use the app to explore basic VB.NET WinForms programming (events, form navigation, image resources), experiment with randomness and probability, or run a quick dice roll for tabletop games. DIceGames is also a simple starter project you can extend, refactor into testable components, or port to other technologies for practice and also aslong as it is not selled for a profit!!!
 
 ## Contributing
 Edits & improvements are welcome, just fork & submit a pull request with all your changes.
