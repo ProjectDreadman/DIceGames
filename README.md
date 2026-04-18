@@ -34,4 +34,4 @@ this is licensed under the **Polyform Noncommercial License 1.0.0**
 - sell the software or derivative works.
 - use the code for commercial or for-profit purposes.
 
-see the [license](LICENSE.txt) file for full legal text
+see the [license](LICENSE.md) file for full legal text
